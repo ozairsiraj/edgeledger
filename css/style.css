@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+h1,h2,h3{
+    text-transform: capitalize;
+    
+}
+
+a{
+    text-decoration:none;
+}
+p{
+    margin: .75rem 0;
+}
+ul{
+    list-style: none;
+}
+.primary{
+    color: yellowgreen;
+}
+.lh{
+    font-size: 4rem;
+    margin-bottom:.75rem ;
+}
+.lh1{
+        font-size: 2.5rem;
+        margin:.75rem ;
+}
+.lead{
+    font-size: 1.2rem;
+    margin: .75REM;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.btn{
+    font-size: 1rem;
+    padding: .5rem;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: chartreuse;
+}
+/* navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    
+    
+}
+#navbar a{
+    color: cornsilk;
+}
+
+#navbar ul{
+    display: flex;
+    
+}
+#navbar ul li a{
+    
+    margin:0 .25rem;
+    padding: .75rem;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    background-color:yellowgreen;
+    border-radius: 5px;
+}
+/* showcase */
+#showcase{
+    background: #444 url(../images/Snapshot00022.jpg) no-repeat center center/cover;   
+    color: cornsilk;
+    height: 100vh;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    
+    background: rgba(0, 0, 0, .6);
+}
+#showcase a{
+    color: white;
+}
+/* where */
+#where{
+    text-align: center;
+    background-color: rgb(235, 224, 224);
+    padding: .5rem;
+    justify-content: center;
+}
+#where .items{
+    display: flex;
+    padding: 2rem;
+   
+
+}
+#where .item{
+    padding: .5rem;
+}
+#where i{
+    background-color: chartreuse;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+/* who */
+
+#who{
+    display: flex;
+    
+}
+#who div{
+    flex:1;
+}
+#who .text{
+    background-color: rgb(65, 63, 63);
+    padding: 2rem;
+    font-size: 1.2rem;
+    color:white;
+}
+#who .text li{
+    padding: .25rem 0;
+    line-height: 2rem;
+    border-bottom: grey dotted 1px;
+}
+#who .img{
+    background: url('../images/image.jfif') no-repeat center center/cover;
+}
+
+/* Clients */
+#clients{
+    text-align: center;
+    background-color: rgb(235, 224, 224);
+    
+}
+#clients .items{
+    display: flex;
+}
+#clients .items img{
+    display: block;
+    margin: auto;
+    margin-bottom: .75rem;
+    width: 60%;
+}
+
