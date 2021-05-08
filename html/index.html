@@ -11,6 +11,7 @@
     <title>edgeledger</title>
 </head>
 <body>
+    <audio src="../html/office.mp3" autoplay></audio>
     <nav id="navbar">
         <h1 class="icon">
            <a href="#home"><span class="primary"><i class="fa fa-paper-plane" aria-hidden="true"></i> Dunder</span>mifflin</a>
@@ -25,7 +26,7 @@
     <sectino id="home">
     <header id="showcase">
         <div class="showcase-content">
-            <h1 class="lh">Paper is the future</h1>
+            <h1 class="lh">	Limitless Paper in a Paperless World</h1>
             <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dolor qui facilis eveniet explicabo atque!</p>
             <div class="btn"><a href="#who">Read More</a></div>
         </div>
@@ -95,5 +96,35 @@
         </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="contact-form">
+            <h2><span>contact</span> us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email id">
+                </div>
+                <div class="form-group">
+                    <label for="feedback">feedback</label>
+                    <textarea name="feedback" id="feedback" cols="70" rows="10" placeholder="Enter you feedback or query"></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            Built by &copy; Syed Ozair Siraj
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../javascript/main.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOfXKVAbmmrqNeLuYEGIzQdGNFnL7yt8c&callback=initMap">
+</script>
 </body>
 </html>

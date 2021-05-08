@@ -7,6 +7,9 @@
 body{
     font-family: 'Roboto', sans-serif;;
 }
+.music{
+    display: hidden;
+}
 h1,h2,h3{
     text-transform: capitalize;
     
@@ -166,3 +169,51 @@ ul{
     width: 60%;
 }
 
+/* contact form */
+#contact{
+    display: flex;
+}
+#contact div{
+    flex:1;
+}
+#contact .contact-form{
+    background-color: chartreuse;
+    font-size: 1.2rem;
+}
+#contact .contact-form h2{
+    text-align: center;
+    margin: .25rem;
+}
+
+#contact .contact-form .form-group{
+    margin: .75rem;
+    font-size: 1.2rem;
+}
+#contact .contact-form .form-group label{
+    display: block;
+    margin: .45rem;
+    text-transform: capitalize;
+    
+}
+#contact .contact-form .form-group input
+{
+    width: 50%;
+    padding: .35rem;
+    /* margin: .45rem; */
+    font-size: 1rem;
+    
+}
+#contact .contact-form .form-group textarea{
+    padding: .35rem;
+    /* margin: .45rem; */
+    font-size: 1rem;
+    
+}
+/* footer */
+#footer{
+    padding: 1.5rem;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 1.45rem;
+}
